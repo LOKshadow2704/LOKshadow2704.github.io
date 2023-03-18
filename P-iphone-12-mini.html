@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/Font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/style_index.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/product-info.css">
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/jquery-3.6.1.slim.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <title>iPhone 12 mini</title>
+</head>
+<body>
+    <div class="header">
+        <div class="banner">
+            <img src="assets/img/banner/ipS.png" alt="" width="100%" height="300px">
+        </div>
+        <div class="navbar1">
+            <div class="navbar1_top row">
+                <div class="col-3">
+                    <div class="account">
+                        <i class="ti-user"></i>
+                        <a href="login.html" class="login">Đăng nhập</a>
+                        <a href="singup.html" class="sign up">Đăng ký</a>
+                    </div>
+                </div>
+                
+                <div class="col-5">
+                    <div class="search">
+                        <form class="form-inline" >
+                        <input class="form-control" type="text" placeholder="Tìm sản phẩm" style="width: 80%; text-align: left;">
+                        <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="cart col-2">
+                    <a href="">
+                        <i class="ti-shopping-cart"></i>
+                        Giỏ hàng<span id="badge">0</span>
+                    </a>
+                </div>
+                <div class="col-1"></div>
+                
+            </div>
+            <div class="top_nav">
+                <div class="row">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link"><i class="ti-home"></i> Trang chủ</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Sản phẩm nổi bật</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="list-Product-old.html">Máy cũ</a>
+                              <a class="dropdown-item" href="list-Product-new.html">Máy mới</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="#introduce" class="nav-link">Giới thiệu</a></li>
+                        <li class="nav-item"><a href="#branch" class="nav-link">Thông tin các chi nhánh</a></li>
+                        <li class="nav-item"><a href="#interactive" class="nav-link">Thông tin liên hệ</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-info-box">
+        <div class="product-name row">
+            <div class="col-1"></div>
+            <div class="col-10"><h1>iPhone 12 mini</h1><hr></div>
+            <div class="col-1"></div>
+        </div>
+        <div class="product-info row">
+            <div class="col-1"></div>
+            <div class="box-left col-5">
+                 <!-- Tab panes -->
+                 <div class="tab-content">
+                    <div id="color-1" class="container tab-pane active"><br>
+                        <img src="assets/img/product/iphone-12-mini.jpg" alt="">
+                    </div>
+                  </div>
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="pill" href="#color-1"><img src="assets/img/product/iphone-12-mini.jpg" alt="" width="40px" height="50px"></a>
+                    </li>
+                  </ul>
+                </div>
+                <!--box right-->
+            <div class="box-right col-5">
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-toggle="pill" href="#color-1">Màu xanh</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="pill" href="#home1">256 GB</a>
+                    </li>
+                  </ul>
+                
+                  <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home1" class="container tab-pane active"><br>
+                      <button type="button" class="btn btn-danger" id="buy-1">15.990.000 đ <br> Mua ngay</button>
+                    </div>
+                  </div>
+            <div class="sub-btn row">
+                <div class="box-btn-1 col-6">
+                    <button type="button" class="btn btn-secondary" id="add-cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="box-btn-2 col-6">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Xem thông số chi tiết</button>
+                      <!-- The Modal -->
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <img src="assets/img/system_info/iphone-12-mini.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            <script>
+                var i = 0;
+                $('#add-gh').click(function(){
+                    $('#badge').html(++i);
+                })
+            </script>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-4" id="introduce">
+                <h1>Giới thiệu</h1>
+                    <p>&emsp; Lộc Iphone (LIP) là cửa hàng mua bán trao đổi iphone mới và cũ uy tín tại Việt Nam
+                được xây dựng bởi sinh viên Nguyễn Thành Lộc (20042101)</p>
+            </div>
+            <div class="col-4" id="branch">
+                <h1>Các chi nhánh</h1>
+                    <i class="ti-location-pin"></i> <p>Quận 1, Thành phố Hồ Chí Minh</p> <br>
+                    <i class="ti-location-pin"></i> <p>Quận 2, Thành phố Hồ Chí Minh</p> <br>
+                    <p> &emsp;Khách hàng bảo hành sản phẩm trực tiếp tại các chi nhánh kèm theo hóa đơn!</p>
+            </div>
+            <div class="col-4" id="interactive">
+                <h1>Thông tin liên hệ</h1>
+                <a href="https://www.facebook.com/profile.php?id=100014233110176"><i class="ti-facebook"></i>Facebook</a><br>
+                <a href=""><i class="ti-instagram"></i> Instagram</a> <br>
+                <p style="float: left; margin-left:40px;">&emsp; Đường dây nóng: 0328058832</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

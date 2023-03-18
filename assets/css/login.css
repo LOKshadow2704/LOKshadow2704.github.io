@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 300px !important;
+}
+.container_login{
+    width: 100%;
+    margin: 0 !important;
+    background-color: rgb(204, 204, 204);
+}
+.container .form-login{
+    background-color: antiquewhite;
+}
+.container_login .form-control{
+    text-align: left;
+}
+.form-login h1{
+    margin-top: 20px;
+}
+.container_login label{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.container_login input{
+    margin-bottom: 10px;
+}
+.container_login button{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 4px;
+}
+.form-login p{
+    float: right;
+}
+.form-login .rs-pass{
+    display: block;
+    text-align: right;
+    padding: 10px;
+}
+.form-login a{
+    color: black;
+}
+.form-login a:hover{
+    text-decoration: none;
+}
+.form-login input{
+    display: inline-block;
+    float: left;
+    width: 98%;
+}
+.ti-arrow-left {
+    font-size: 10px;
+}
+.container_login a{
+    color:black;
+}
+.maudo{
+    color: red;
+}
+.mauden{
+    color: black;
+}
+span {
+    float: right;
+}

@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    width: 100%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    box-shadow: 0 0 10px black;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(204, 204, 204);
+}
+.navbar1{
+    height: 100px;
+    background-color: rgb(204, 204, 204);
+}
+.navbar1_top{
+    height: 50%;
+    margin: 0 !important;
+}
+.account{
+    display: inline;
+    line-height: 50px;
+    float: left;
+}
+.account a{
+    color: black;
+}
+.login{
+    border-right: 1px solid;
+}
+.account a{
+    padding: 5px;
+}
+.search {
+    margin-top: 6px;
+}
+.top_nav{
+    height: 50px;
+}
+.nav{
+    margin-left: 20px;
+}
+.nav a{
+    color: black;
+}
+.nav .dropdown:hover>.dropdown-menu{
+    display: block;
+    background-color: rgb(204, 204, 204);
+    margin: 0 !important;
+}
+.cart{
+    text-align: center;
+    line-height: 50px;
+}
+.cart a{
+    color: black;
+}
+.cart .modal-body div{
+    display: flex;
+    flex-direction: row;
+}
+.saleoff{
+    height: 1100px;
+    background-color: rgb(44, 44, 44);
+}
+.saleoff .header_sale{
+    height: 10%;
+    margin-top: 10px;
+}
+.saleoff h1{
+    height: 100%;
+    color: white;
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    display: inline-block;
+    margin:0 !important;
+    float: left;
+}
+.saleoff .header_sale img{
+    height: 85%;
+}
+.saleoff .product_onsale{
+    height: 45%;
+    margin: 10px 0 0 0 !important;
+}
+.saleoff .product{
+    padding: 0 !important;
+    background-color: white;
+    border: 2px solid black;
+    height: 90%;
+}   
+.product img{
+    margin-top: 10px;
+    transition: transform .3s;
+}
+.product p{
+    margin-top: 1rem;
+}
+.product del{
+    margin-right: 10px;
+}
+.product:hover img{
+    transform: scale(1.06); 
+}
+.best_seller span{
+    display: block;
+    text-align: center;
+    width: 79px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.best_seller .product{
+    margin-bottom: 20px;
+}
+.best_seller h1{
+    padding: 30px;
+}
+.footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.footer p{
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 !important;
+    display: inline-block;
+
+}
+.footer h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.footer #introduce p{
+    text-align: justify;
+}
+.footer #branch p{
+    padding: 3px 0;
+}
+.footer #interactive a{
+    color: white;
+    float: left;
+    margin-left:40px;
+}

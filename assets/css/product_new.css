@@ -1,0 +1,26 @@
+.product_new, .product_old{
+    height: 45%;
+    margin: 10px 0 0 0 !important;
+}
+.product_new h1, .product_old h1{
+    display: inline-block;
+    margin-left: 20px;
+}
+.list-product-new, .list-product-old{
+    margin-bottom: 20px;
+}
+.sort>.dropdown {
+    background-color: white !important;
+    float: right;
+}
+.sort .dropdown:hover>.dropdown-menu{
+    display: block;
+    background-color: white;
+    margin: 0 !important;
+}
+.sort button{
+    padding: 0 5px;
+    height: 24px;
+    background-color: rgb(204, 204, 204);
+    color: black;
+}

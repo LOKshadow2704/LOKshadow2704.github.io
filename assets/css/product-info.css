@@ -1,0 +1,59 @@
+body {
+    position: relative; 
+}
+.product-info-box h1{
+    text-align: left;
+}
+.product-info{
+    margin-bottom: 20px;
+}
+.product-name h1{
+    margin: 20px 0;
+}
+.box-left {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 500px;
+}
+.box-left .tab-content{
+    height: 85%;
+}
+.box-left .nav-pills .nav-link.active{
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px 10px !important;
+}
+.box-right li{
+    display: inline-block;
+    width: 33%;
+    height: 40px;
+}
+.box-right .nav-pills .nav-link.active{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px 10px !important;
+}
+.box-right ul, .box-right button{
+    margin-top: 20px;
+}
+.box-right .tab-content button{
+    width: 100%;
+}
+.sub-btn button{
+    width: 100%;
+}
+.box-btn-1{
+    padding-left: 30px !important;
+}
+.box-btn-2{
+    padding-right: 30px !important;
+}
+.footer h1{
+    text-align: center !important;
+}
+.tab-content .price {
+    display: inline;
+}
